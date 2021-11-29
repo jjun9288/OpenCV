@@ -4,6 +4,16 @@ import cv2
 path = 'C:/Users/jjun8/Desktop/CV_study/ch5/data/'
 
 
+#------------------------------------------------------------------------------
+# < 영상의 회전 >
+# cv2.getRotationMatrix2D(center, angle, scale)
+#   -center : 회전 중심 좌표
+#   -angle : 회전 각도
+#   -scale : 추가적인 확대 비율
+#------------------------------------------------------------------------------
+
+
+
 src = cv2.imread(path + 'tekapo.bmp')
 
 if src is None:
